@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 25%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.side-r {
+  flex: 25%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+
+.logo {
+	left:50%;
+	margin-right: -50%;
+
+}
+
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:black;padding:5px">
+  <h4 style="text-align:center"></h4>
+  <img class='logo' src='logo.png'>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>"Let the Force Be With You"</h1>
+  <p>- <b>George Lucas,</b> visionary film maker</p>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>What makes you happy?</h2>
+    <h5>It is possible, you relate closely with one or more below and you decide to join a forward looking group of people, a global community of excited beings</h5>
+    <div class="fakeimg" style="height:200px;"><img src='helpinghand.jfif'></div>
+    <p>Good karma, good seeds, for next-gen, touch lives,.... however you view it, if you have a reason, be the guest. If you find something not there, inform <a href='#'>here to add</a> </p>
+	<h3>Change someone's life</h3>
+    <p>Many a times, just intentional guidance is all it needs to help someone... Connect <a href='#'>here</a> and be the guest and host here</p>
+	<div class="fakeimg" style="height:60px;"><img src='design.jpg' height='50px'></div><br>
+    <h3>Are you looking for some help?</h3>
+    <p>If you ask, someone may be willing to help. Be clear on what you ask and be genuine and convincing enough.</p>
+	<div class="fakeimg" style="height:60px;"><img src='design.jpg' height='50px'></div><br>
+	<h3>Give back to community</h3>
+    <p>Fix an issue in your community to make it easier for yourself and your folks. Leave a community that's fit for your next generations. Join <a href='#'>here</a> to contribute in your own possible way to commonly known issues. Do you have ideas? Do you see issues that need to be fixed? Do you need help to put together pieces of research and expertise to work with civic leaders? Join others <a href='#'>here</a></p>
+	<div class="fakeimg" style="height:60px;"><img src='design.jpg' height='50px'></div><br>
+	<h3>Contribute to a Cause</h3>
+    <p><a href='#'>Here</a> is a list of Causes you can contribute to. This is guaranteed to give you satisfaction and leave a mark that will last for generations to come. If you don't see a cause you care deeply, add it <a href='#'>here</a> for others to get involved.</p>
+	<div class="fakeimg" style="height:60px;"><img src='design.jpg' height='50px'></div><br>
+    <h3>Build a business</h3>
+    <p>Business is an asset which you can pass on to your next generation. You cannot pass on your employment or knowledge, so your efforts and time are only brining in 1x result. However, a business lasting for generations is bringing in multiple-x return of your time and efforts. <a href='#'>Here</a> is a list of ideas to join hands with others and build a business safely when you are still employed. Together can do more than alone. If you have an idea, add <a href='#'>here</a> for others to get involved.</p>
+    <div class="fakeimg" style="height:60px;"><img src='design.jpg' height='50px'></div>
+	<h3>Hire genuine skills</h3>
+    <p><a href='#'>Here</a> is a list of candidates with proof of expertise. Refer them or hire them based on your position. Give a ladder to talent and hardwork. These people need a breakthrough. If you reskilled yourself or coached someone else to reskill for a better future add <a href='#'>here</a> with proof of expertise for recruiters to find you. As an example, a school or college drop out working in underpaying jobs due to circumstances could learn a skill valuable for employers. Go for it. Read some success stories <a href='#'>here</a></p>
+    <div class="fakeimg" style="height:60px;"><img src='design.jpg' height='50px'></div>
+	<h3>Now Hiring Volunteers and Advisory members</h3>
+    <p> Refer <a href='#'>here</a> for available positions for this community website, a point of inflection, a source of strength, a place of joy and happiness and a treasure of knowledge and expressions. You are ideal if you want to build a community, contribute to society, have fun working with some new people across the globe in building something with your skills that interests you. Apply <a href='#'>here</a></p>
+    <div class="fakeimg" style="height:60px;"><img src='design.jpg' height='50px'></div>
+  </div>
+  <div class="main">
+    <h2>THE UNCOMMON COMMON PERSON</h2>
+    <h5>It is a pleasure to know about some common people with uncommon impact on others.</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>These <a href='#'>people</a> are inspirations for others...</p>
+    <p>Read about them, be inspired. Try to be like them, be blessed. If you know anyone like them, invite them <a href='#'>here</a> with their picture and story.</p>
+    <br>
+	<h2>TECHNOLOGY REVIEWS</h2>
+    <h5>Technology is essential part of life. You can find information that you can apply in your job and in your life <a href='#'>here</a></h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Do you want to improve your investment, business or performance through technology? <a href='#'>This</a> is the place. </p>
+    <p>You could be investor, business manager, technology professional or just a curious George... you would enjoy this information </p>
+	<br>
+    <h2>UNDERSTAND THIS WORLD</h2>
+    <h5>From the treasure of ancient knowledge and from modern thinkers, you can apply <a href='#'>this</a> knowledge in your everyday life.</h5>
+    <div class="fakeimg" style="height:200px;"><img src='world.jfif'></div>
+    <p>There are billions of people who already experienced this world and written about it. The younger ones could gain from this knowledge...</p>
+    <p>Having right information is like riding on a booster engine. It just speeds up everything in the right direction. Ignoring it is like taking a slow bus or even a long walk.</p>
+    <br>
+    <h2>UNDERSTAND YOURSELF</h2>
+    <h5>If I understand myself, I position myself for success.</h5>
+    <div class="fakeimg" style="height:200px;"><img src='self.jfif' height='180px'></div>
+    <p>Do you start with the question 'Who am I beyond my name and title', and wade off from it?  </p>
+    <p>Or thought a little bit about 'How my body and mind works? How this miracle called life works' and didn't find time to go further down that route? <a href='#'>Here</a> you may get some opportunities to think inwards deeply.</p>
+	<br>
+    <h2>UNDERSTAND GOD</h2>
+    <h5>Whether Atheist or Theist, can you define the reason for orderliness? Join <a href='#'>here</a></h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>If you see the same thing happening repeatedly and consistently, or if you see uniformity and meticulous design, you have reason enough to believe someone is behind it... or not. Involve <a href='#'>here</a> </p>
+    <p>How does the school bus come around the same time every day and don't come on weekends? How there is striking uniformity and regularity in what we see around us? How a plant on earth relies on Sun that's millions of miles away and Sun sends the same rays everytime? </p>
+	<br>
+	<h2>UNDERSTAND MONEY</h2>
+    <h5>Do you want to know more about Money? Or share something with others?</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Involve <a href='#'>here.</a>If you want something, best way to get it is by learning more about it... </p>
+    <p>You may be surprised, how many layers of complexities money has and it is not the same as what you see as a coin or a paper note. </p>
+	<br>
+  </div>
+  <div class="side-r">
+	<h2>NEWS, HAPPENINGS AND TRIVIA</h2>
+    <h5>Keep upto date <a href='#'>here</a></h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>We are flooded with information... it is a discussion about what we need to know, as much as what happened or going to happen.</p>
+    <p>Read about them, be inspired.</p>
+    <br>
+	<h2>COACHING</h2>
+    <h5>Click <a href='#'>here</a> for people who are experts in their own area willing to coach others</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>With some guidance, we can collectively save money and time to achieve the goals easier than doing it alone.</p>
+    <p>Read about them <a href='#'>here</a> and if it is a match, join their coaching.</p>
+    <br>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Follow on Social Media</h2>
+  <p>Donate to support this website to reach millions and be a positive agent of change</p>
+  <p>http://www.globalnerdy.com/2019/12/04/now-that-im-getting-paid-to-be-a-developer-again/?mc_cid=9554bea819&mc_eid=3e1fc4d276</p>
+  <p>https://www.bizjournals.com/tampabay/news/2019/12/04/report-tampa-among-best-tech-cities-for-it-jobs-in.html?ana=RSS&s=article_search&mc_cid=9554bea819&mc_eid=3e1fc4d276</p>
+  <p>Webpage design credit: www.w3schools.com Tutorials and code blocks from this amazing site are used to express this webpage with the customers of this webpage in mind... it should be easy, engaging, informative and give value for every minute spent here
+  <p>The logo is a temporary placeholder from internet and it does not belong to this page or brand. It will be replaced with own logo<p>
+</div>
+
+</body>
+</html>
+
