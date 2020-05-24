@@ -86,3 +86,8 @@ img{
 	flex-wrap: wrap;
 }
 
+#boldred{
+	color:red;
+	font-weight: bold;
+
+}
