@@ -12,6 +12,11 @@ header{
 	color: white;
 }
 
+.header-logo-menu{
+	display: flex;
+	flex-direction: row;
+}
+
 .main{
 	background-color: white;
 	display: flex;
@@ -27,15 +32,46 @@ footer{
 
 .nav{
 	display: flex;
+	flex-direction: column;
+}
+
+.nav-items{
+	display: flex;
 	flex-direction: row;
 }
 
 .nav p{
 	padding: 5px;
+	font-size: 12px;
 }
 
 a {
 	color: inherit;
+	font-weight: bold;
+}
+
+.navref a{
+	color: inherit;
+	font-weight: normal;
+}
+
+.dropdown{
+	display: none;
+	background-color: #b1f5b3;
+}
+
+.dropdown a{
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	color: #0c8a10; 
+	margin: 5px;
+	font-weight: bold;
+
+}
+
+.nav:hover .dropdown {
+	display: block; 
 }
 
 h4{
@@ -44,7 +80,7 @@ h4{
 }
 
 .left{
-	width: 25%
+	width: 25%;
 }
 
 .navref{
@@ -63,6 +99,44 @@ h4{
 
 img{
 	max-width: 100%;
+	margin-top: 10px;
+}
+
+.button-indexpage{
+	background-color: #45bb3f;
+	color: #106a0c;
+	font-weight: bold;
+	font-size: 15px;
+	height: 40px;
+}
+
+.img-jewelery{
+	height:500px; 
+	width: 100%;
+}
+
+.jewelery-left{
+	width: 100%;
+	background-color: #dce97d;
+}
+
+.jewelery-compare{
+	display: flex;
+	flex-direction: row;
+}
+
+.jewelery-compare-left{
+	background-color: #eaf71a;
+	width: 50%;
+	margin: 5px;
+	padding: 5px;
+}
+
+.jewelery-compare-right{
+	background-color: #1af793;
+	width: 50%;
+	margin: 5px;
+	padding: 5px;
 }
 
 .main-1{
@@ -72,11 +146,18 @@ img{
 	font-size: 1.5em;
 }
 
+.howitworks{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .howitworks-1{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	flex-wrap: wrap;
+	width: 250px;
 }
 
 .howitworks-2{
@@ -84,10 +165,65 @@ img{
 	flex-direction: row;
 	justify-content: flex-end;
 	flex-wrap: wrap;
+	width: 250px;
 }
 
 #boldred{
 	color:red;
 	font-weight: bold;
 
+}
+
+.middle{
+	display: flex;
+	flex-direction: column;
+}
+
+.middle-flip-images{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.flip-card{
+	background-color: transparent;
+	width: 250px;
+	height: 200px;
+	margin: 10px;
+}
+
+.flip-card-inner{
+	position: relative;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+	height: 100%;
+	width: 100%;
+}
+
+.flip-card:hover .flip-card-inner{
+	transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back{
+	position: absolute;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.flip-card-front{
+	background-color: #0c8a10;
+	color: black;
+}
+
+.flip-card-back{
+	background-color: dodgerblue;
+	color: white;
+	transform: rotateY(180deg);
+}
+
+.flip-card-back p{
+	margin: 5px;
+	text-align: left;
 }
