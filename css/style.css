@@ -5,6 +5,7 @@ html{
 body{
 	display: flex;
 	flex-direction: column;
+	background-color: lightgreen;
 }
 
 header{
@@ -18,15 +19,18 @@ header{
 }
 
 .main{
-	background-color: white;
+	background-color: inherit;
 	display: flex;
 	flex-direction: row;
+
 
 }
 
 footer{
-	background-color: gray;
+	background-color: darkgreen;
 	width: 100%;
+	color: lightgreen;
+	text-align: center;
 
 }
 
@@ -218,7 +222,7 @@ img{
 }
 
 .flip-card-back{
-	background-color: dodgerblue;
+	background-color: darkgreen;
 	color: white;
 	transform: rotateY(180deg);
 }
