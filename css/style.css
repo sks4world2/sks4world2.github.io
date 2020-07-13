@@ -231,3 +231,39 @@ img{
 	margin: 5px;
 	text-align: left;
 }
+
+.accordion {
+	transition: 0.4s;
+	width: 100%;
+	background-color: green;
+	color: white;
+	text-align: left;
+	padding: 10px; 
+}
+
+.active, .accordion:hover {
+	background-color: blue;
+}
+
+.panel {
+	overflow: hidden;
+	width: 100%;
+	display: none;
+}
+
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+	margin-bottom: 5px;
+
+}
+
+.video-responsive iframe{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
