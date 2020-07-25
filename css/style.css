@@ -268,3 +268,22 @@ img{
 	position: absolute;
 }
 
+.thumbnail {
+	height: 250px;
+	width: 250px;
+}
+
+.thumbnail:hover {
+	position: relative;
+	top: -25px;
+	left: -35px;
+	width: 500px;
+	height: auto;
+	display: block;
+	z-index: 999;
+}
+
+a[href^="tel:"]:before{
+	content: "\260e";
+	margin-right: 0.5em;
+}
